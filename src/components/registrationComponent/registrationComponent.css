@@ -1,0 +1,68 @@
+.registration-component{
+    margin-top: 100px;
+    padding-left: 18%;
+    padding-right: 22%;
+    background-color: rgb(237, 242, 250);
+    padding-top: 50px;
+    
+}
+.registration{
+    color: black;
+}
+.registration-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.registration-head{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.registration-para{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.registration-image{
+    max-width: 10vw;
+}
+.registration-button1{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #0066cc;
+  border-radius: 25px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.registration-button2{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #0066cc;
+  border-radius: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+
+}
+.registration-add{
+    margin-top: 40px;
+    width: 105%;
+    height: 250px;
+    padding-bottom: 50px;
+}
+.registration-curosal img{
+    width: 25vw;
+    height: 100%;
+}

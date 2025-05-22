@@ -1,0 +1,56 @@
+.coursesfilter{
+     padding-left: 18%;
+    padding-right: 22%;
+    padding-bottom: 30px;
+    background-color: rgb(237, 242, 250);
+    position: sticky;
+    
+    z-index: 1000;
+}
+.coursesfilter h2{
+    margin: 0;
+}
+.coursesfilter-container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 15px;
+}
+.coursesfilter-container-btn,.coursesfilter-container-btn0,.coursesfilter-container-btn1{
+    border-radius: 10px;
+    
+    height: 35px;
+    width: auto;
+    padding: 10px 15px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.coursesfilter-container-btn{
+    background-color: transparent;
+    border-color: rgb(198, 200, 204);
+}
+.coursesfilter-container-btn0{
+    background-color: white;
+    border-width: 0px;
+}
+.coursesfilter-container-btn1{
+    background-color: rgb(213, 232, 255);
+    border-color: rgb(4, 103, 218);
+}
+.coursesfilter-container-btn-icon{
+    height: 15px;
+}
+.divider{
+    width: 1px;
+  height: 26px;
+  background-color: #ccc;
+}
+.checked{
+    background-color: rgb(213, 232, 255);
+    border-color: rgb(4, 103, 218);
+}

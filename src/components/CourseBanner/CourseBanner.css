@@ -1,0 +1,29 @@
+.banner-container{
+  background-color: rgb(237, 242, 250);
+  padding: 160px 18% 40px 18%;
+}
+.banner {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background-color: rgb(235, 221, 246);
+  height: 40px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.highlight {
+  color: #e5007d;
+  font-weight: bold;
+}
+
+.text {
+  color: #000;
+}
+
+.date {
+  color: #ff1dbf;
+  font-weight: bold;
+}

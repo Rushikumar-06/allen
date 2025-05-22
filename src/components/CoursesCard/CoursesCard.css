@@ -1,0 +1,86 @@
+.coursecard{
+  background-color: rgb(237, 242, 250);
+   padding-left: 18%;
+    padding-right: 22%;
+    padding-top: 20px;
+    
+}
+.course-card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 0 1px #e0e0e0;
+  color: #111;
+}
+
+.course-card-tag {
+  background-color: #000;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 30px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.course-card-tag-icon {
+  margin-right: 6px;
+}
+
+.course-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.course-card-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0 12px;
+}
+
+.course-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.course-card-features li::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #2ecc71;
+}
+
+.course-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.course-card-price {
+  font-weight: 600;
+  color: #111;
+}
+
+.course-card-tax-note {
+  font-weight: 400;
+  color: #888;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.course-card-know-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,55 @@
+.app-advantages{
+    padding-left: 18%;
+    padding-right: 22%;
+    padding-top: 20px;
+}
+.app-advantages-head{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.app-advantages-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-advantages-content-left{
+    width: 80%;
+}
+.app-advantages-content-left-head{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.app-advantages-content-left-text{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    
+}
+.app-advantages-content-right img{
+    width: 120%;
+    height: 300px;
+    padding-left: 15%;
+}
+.app-advantage-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.app-advantages button{
+     background-color: #007bff; 
+  border: none; 
+  color: white;
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 50px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+.carousel-controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.carousel-controls button{
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 6px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+   
+    
+}
+.Curousal-left-btn-container{
+     position: relative;
+     left: 35px;
+}
+.Curousal-right-btn-container{
+     position: relative;
+     right: 35px;
+}
+.Curousal-left-btn,.Curousal-right-btn{
+    padding-top: 2px;
+    
+}

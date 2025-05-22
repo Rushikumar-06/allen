@@ -1,0 +1,10 @@
+.CoursesAdd{
+    padding-left: 18%;
+    padding-right: 20%;
+    padding-top: 40px;
+    background-color: rgb(237, 242, 250);
+    padding-bottom: 30px;
+}
+.CoursesAdd img{
+    width: 100%;
+}

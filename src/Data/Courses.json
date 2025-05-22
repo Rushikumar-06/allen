@@ -1,0 +1,96 @@
+{
+    "coursesonlinecourse":[
+        {
+            "type" : "Live",
+            "tag" : "",
+            "title" : "Nurture Online Course",
+            "subtitle" : "Weekday Batch",
+            "features": 
+            [
+                "Live classes from ALLEN Kota's top faculty",
+                "Up to 20 online tests",
+                "24/7 doubt resolution, mentorship & more"
+            ],
+            "price" : "₹85,000"
+            
+        },
+        {
+            "type" : "Live",
+            "tag" : "NEW LAUNCh",
+            "title" : "Nurture Online Course",
+            "subtitle" : "Weekday Batch",
+            "features": 
+            [
+                "Live classes from ALLEN Kota's top faculty",
+                "Up to 20 online tests",
+                "24/7 doubt resolution, mentorship & more"
+            ],
+            "price" : "₹85,000"
+
+        }
+    ],
+    "coursesselfstudy":[
+        {
+        "type": "Recorded",
+        "tag": "Scholarship Eligible",
+        "title": "Nurture Self – Study Plus",
+        "subtitle": "Video lectures + Test series",
+        "features": [
+            "Latest recordings covering full syllabus",
+            "Digital study material incl. books, RACEs & more",
+            "25 (part + full) syllabus tests"
+        ],
+        "price": "₹9,000 "
+    },
+    {
+        "type": "Recorded",
+        "tag" : "",
+        "title": "Nurture Self–Study Classic",
+        "subtitle": "Video Lectures",
+        "features": [
+            "Latest recordings covering full syllabus",
+            "Digital study material incl. books, RACEs & more"
+        ],
+        "price": "₹4,200"
+        
+    }
+    ],
+    "coursestestseries":[
+        {
+            "type": "Online Test Series",
+            "tag": "",
+            "title": "Nurture Test Series",
+            "subtitle": "All India Test Series – ONLINE mode",
+            "features": [
+                "25 (part + full) syllabus tests",
+                "Detailed solutions of all questions",
+                "Exclusive ALLEN’s Question Bank"
+            ],
+            "price": "₹6,700"
+        },
+        {
+            "type": "Offline Test Series",
+            "tag": "",
+            "title": "Nurture Test Series (Allen DLP)",
+            "subtitle": "All India Test Series – PEN & PAPER mode",
+            "features": [
+                "19 (part + full) syllabus tests",
+                "Access largest network of 300+ test centers"
+            ],
+            "price": "₹12,712"
+        }
+    ],
+    "coursespracticepakages":[
+        {
+            "type": "Practice",
+            "tag": "",
+            "title": "Nurture Practice Package",
+            "subtitle": "Allen Question Bank",
+            "features": [
+                "15,000+ curated questions covering full syllabus",
+                "RACEs, PYQs and more"
+            ],
+            "price": "₹1,600 + Taxes applicable"
+        }
+    ]
+}

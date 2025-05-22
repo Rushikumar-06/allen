@@ -1,0 +1,10 @@
+.whats-trending{
+    padding-left: 18%;
+    padding-right: 22%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(237, 242, 250);
+}
+.whats-trending img{
+    width: 100%;;
+}
