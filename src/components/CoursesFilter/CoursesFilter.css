@@ -53,4 +53,5 @@
 .checked{
     background-color: rgb(213, 232, 255);
     border-color: rgb(4, 103, 218);
+    border-width: 2px;
 }

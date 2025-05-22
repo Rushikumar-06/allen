@@ -1,14 +1,10 @@
 
 import './CourseBanner.css'; 
 
-function Banner(){
+function Banner({link}){
   return (
     <div className='banner-container'>
-    <div className="banner">
-      <span className="highlight">LAST FEW SEATS LEFT!</span>
-      <span className="text"> Batches for LIVE courses starting from </span>
-      <span className="date">27th May</span>
-    </div>
+      <img className="banner" src={link} />
     </div>
   );
 };
