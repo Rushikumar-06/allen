@@ -1,0 +1,94 @@
+
+
+.MoreCurosal{
+    text-align: center;
+    background-color: #f2f6fd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.MoreCurosal-container {
+  border-radius: 20px;
+  position: relative;
+  
+}
+.MoreCurosal-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
+
+.MoreCurosal-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+
+.MoreCurosal-slide-image img {
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.MoreCurosal-slide-text {
+  min-width: 30%;
+  background-color: white;
+  
+  ;
+}
+
+
+
+.MoreCurosal-slide-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.MoreCurosal-slide-text p {
+  margin-top: 0.5rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.MoreCurosal-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+  color: #333;
+}
+
+.MoreCurosal-arrow.MoreCurosal-left {
+  left: 20%;
+}
+
+.MoreCurosal-arrow.MoreCurosal-right {
+  right: 20%;
+}
+
+.MoreCurosal-dots {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.MoreCurosal-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.MoreCurosal-dot.MoreCurosal-active {
+  background-color: #333;
+}

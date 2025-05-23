@@ -18,9 +18,18 @@ function Curosal({images}){
     return(
         <>
         <div className="carousel-controls" >
-        <button onClick={handleNext}  className='Curousal-left-btn-container'><FaArrowLeft className='Curousal-left-btn' /></button>
+        <button onClick={handlePrev}  className='Curousal-left-btn-container'><FaArrowLeft className='Curousal-left-btn' /></button>
          <img src={images[currentIndex]} alt="Carousel"  />
-        <button onClick={handlePrev}  className='Curousal-right-btn-container'><FaArrowRight className="Curousal-right-btn"/></button>
+        <button onClick={handleNext}  className='Curousal-right-btn-container'><FaArrowRight className="Curousal-right-btn"/></button>
+      </div>
+      <div className="Curosal-dots">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`Curosal-dot ${index === currentIndex ? "Curosal-active" : ""}`}
+            onClick={() => setCurrentIndex(index)}
+          ></span>
+        ))}
       </div>
         </>
     )

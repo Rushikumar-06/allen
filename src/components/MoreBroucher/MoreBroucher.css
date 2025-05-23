@@ -1,0 +1,48 @@
+.Broucher{
+    background-color: #f2f6fd;
+    padding: 50px 16% 50px 16%;
+}
+.Broucher-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.Broucher-left {
+  text-align: center;
+  width: 45%;
+}
+
+.Broucher-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.Broucher-highlight {
+  color: #0066ff;
+}
+
+.brochure-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1f1f1f;
+  border: 2px solid #0066ff;
+  border-radius: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brochure-button:hover {
+  background-color: #e4e6ea;
+}
+
+.Broucher-right {
+  font-size: 1rem;
+  color: #333;
+  width: 45%;
+}

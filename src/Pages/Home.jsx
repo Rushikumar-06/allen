@@ -10,9 +10,9 @@ import AppDownload from "../components/AppDownload/AppDownload.jsx"
 import "../components/FreeResources/FreeResources.css"; // If you still need to import the CSS here
 function Home(){
     const freeResourcesData = [
-        { para: "JEE Advanced Rank Predictor", linkName: "Predict Rank", link: "/jee-advanced-rank-predictor" },
-        { para: "JEE Advanced Exam Guid", linkName: "Explore Now", link: "/jee-advanced/2025" },
-        { para: "Neet Rank Predictor", linkName: "Predict Rank", link: "/neet-rank-predictor" },
+        { para: "JEE Advanced Rank Predictor", linkName: "Predict Rank", link: "/jee-advanced-rank-predictor", image:"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1738050758/vqlzquv4ypnjlhf7zd61.png?_upload_ref=ic_img_tool&__ar__=1.68" },
+        { para: "JEE Advanced Exam Guid", linkName: "Explore Now", link: "/jee-advanced/2025", image:"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1738050810/uvfjnf35zedfyb3bnfwb.png?_upload_ref=ic_img_tool&__ar__=1.67" },
+        { para: "Neet Rank Predictor", linkName: "Predict Rank", link: "/neet-rank-predictor", image:"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1738050888/uxqrvzofqoibjbhl25va.png?_upload_ref=ic_img_tool&__ar__=1.68" },
         
     ];
     return (
@@ -20,11 +20,11 @@ function Home(){
             
             <RegistrationComponent/>
             <OnlineCourse/>
-            <div className="free-resources">
+            <div className="free-resources ">
                 <h2 className="free-resources-head">Free Resources</h2>
                 <div className="free-resources-container">
                     {freeResourcesData.map((item, index) => (
-                        <FreeResources key={index} para={item.para} linkName={item.linkName} link={item.link}/>
+                        <FreeResources key={index} para={item.para} linkName={item.linkName} link={item.link} image = {item.image}/>
                     ))}
                 </div>
             </div>

@@ -26,3 +26,21 @@
     padding-top: 2px;
     
 }
+.Curosal-dots {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Curosal-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Curosal-dot.Curosal-active {
+  background-color: #333;
+}

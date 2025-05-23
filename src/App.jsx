@@ -3,6 +3,7 @@ import Courses from "./Pages/Courses.jsx"
 import TestSeries from "./Pages/TestSeries.jsx"
 import LoginPage from "./Pages/LoginPage.jsx"
 import NotFound from "./components/NotFound/NotFound.jsx"
+import MorePage from "./Pages/MorePage.jsx"
 import Layout from "./Layout/Layout.jsx"
 import Layout2 from "./Layout/Layout2.jsx"
 import LayoutLogin from "./Layout/LayoutLogin.jsx"
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/courses" element={<Courses/>} />
           <Route path="/test-series" element={<TestSeries/>} />
+          <Route path="/more" element={<MorePage/>} />
         </Route>
         <Route path="*" element = {<Layout2/>}>
           <Route path="*" element={<NotFound/>} />
