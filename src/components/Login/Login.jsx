@@ -1,9 +1,8 @@
 import React, { useState ,useRef,useEffect} from 'react';
 import './Login.css'; 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { loginContext } from '../../App';
-import {Link} from 'react-router';
 function Login() {
   const [mobile, setMobile] = useState('');
   const isValidMobile = mobile.length === 10;
@@ -13,18 +12,24 @@ function Login() {
   const randomNumber = Math.floor(Math.random() * 9000+1000);
   const otpRef = useRef();
   const [resendOtp, setResendOtp] = useState(false);
-  const { setLoginStatus } = useContext(loginContext);
+  const { loginStatus,setLoginStatus } = useContext(loginContext);
   const [errormsg, setErrorMsg] = useState(false);
+  
     useEffect(() => {
         otpRef.current = randomNumber;
     }, [resendOtp]);
-  function handleOtpSubmit() {
+  function handleOtpSubmit(e) {
+    e.preventDefault();
     if (otp == otpRef.current){
-        navigate("/", { replace: true });
         setLoginStatus(true);
-    }
-
-  }
+        
+    }}
+    useEffect(() => {
+        if (loginStatus) {
+            navigate('/');
+        }
+    }, [loginStatus]);
+    
   return (
     <div className="login-background">
         {!otpStatus ? 
@@ -57,7 +62,7 @@ function Login() {
         >
             Send OTP
         </button>
-        <button className='send-otp-button'><Link to="/" className='without-login'>Continue without login</Link></button>
+        <button className='send-otp-button' onClick={()=>setKLoginStatus(flase)}><Link to="/" className='without-login'>Continue without login</Link></button>
         </div>
         </form>
         :

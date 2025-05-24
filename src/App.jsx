@@ -8,10 +8,16 @@ import Layout from "./Layout/Layout.jsx"
 import Layout2 from "./Layout/Layout2.jsx"
 import LayoutLogin from "./Layout/LayoutLogin.jsx"
 import {Routes,Route} from "react-router"
-import { createContext,useState } from "react"
+import { createContext,useEffect,useState } from "react"
+
+localStorage.setItem("loginStatus", false);
+
 export const loginContext = createContext()
 function App() {
-   const [loginStatus, setLoginStatus] = useState(false);
+   const [loginStatus, setLoginStatus] = useState(localStorage.getItem("loginStatus"));
+   useEffect(() => {
+    localStorage.setItem("loginStatus", loginStatus);
+  }, [loginStatus]);
    return(
     <>
       <loginContext.Provider value={{ loginStatus, setLoginStatus }}>

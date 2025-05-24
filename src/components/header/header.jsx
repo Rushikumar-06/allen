@@ -3,8 +3,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { useContext } from "react";
 import { loginContext } from "../../App";
-function header(){
+function Header(){
     const { loginStatus,setLoginStatus } = useContext(loginContext);
+           
+    function handleLoginClick() {
+    if (loginStatus) {
+        setLoginStatus(false);
+    }
+}
+
     return(
         <div className="header-component">
             <div className="header-position">
@@ -24,7 +31,7 @@ function header(){
                 </div>
                 <div className="login-info">
                     <div className="header-phone-logo"><FaPhoneAlt /></div>
-                    <button className="login-button" ><Link to="/login" className="nav-link-item" >{loginStatus ? "Logout" : "Login" }</Link></button>
+                    <button className="login-button" onClick={handleLoginClick}><Link to="/login" className="nav-link-item">{loginStatus ? "Logout" : "Login"}</Link></button>
                 </div>
             </div>
             <div className="header-add"><span className="header-add-content">offer ends soon</span>   Join the NEET PowerPlusLIVECoursefor2026@9,990</div>
@@ -32,4 +39,4 @@ function header(){
         </div>
     );
 }
-export default header;
+export default Header;

@@ -24,8 +24,8 @@ function AppAdvantages() {
             <div className="app-advantages-content">
                <div className="app-advantages-content-left">
                 {data.map((item,index)=>(
-                  <div onClick={()=>handlecontent(index)}>
-                    <h3 className="app-advantages-content-left-head" key={index}>{item.head}</h3>
+                  <div onClick={()=>handlecontent(index) } key={index}>
+                    <h3 className="app-advantages-content-left-head" >{item.head}</h3>
                     <p className="app-advantages-content-left-text">{current === index ? item.text:null}</p>
                     <hr></hr>
                   </div>
