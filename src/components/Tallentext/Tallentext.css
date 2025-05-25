@@ -1,0 +1,47 @@
+
+
+.tallentex-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.tallentex-blue-text {
+  color: #0063f7;
+}
+
+.tallentex-points {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tallentex-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.tallentex-icon {
+  font-size: 22px;
+  color: #0063f7;
+  margin-top: 5px;
+}
+
+.tallentex-point p {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+.tallentext-image{
+  width: 50px;
+  
+}
+.tallentext-image img{
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}

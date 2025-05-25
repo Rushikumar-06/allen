@@ -1,0 +1,95 @@
+.tallentex-form {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+}
+
+.tallentex-form .tallentex-top-badge {
+  font-size: 10px;
+  background: #ff3c3c;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.tallentex-form h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.tallentex-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+
+
+.tallentex-form input,
+.tallentex-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.tallentex-exam-dates {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tallentex-exam-dates button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tallentex-selected {
+  background-color: #0047ff;
+  color: white;
+  border-color: #0047ff;
+}
+.tallentext-unselected{
+  background-color: #f0f4fb;
+  color: #111;
+}
+.tallentex-submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #ccc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.submit-btn:not(:disabled) {
+  background-color: #0047ff;
+}
+
+.terms-text {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.terms-text a {
+  color: #0047ff;
+  text-decoration: underline;
+}

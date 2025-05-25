@@ -24,14 +24,15 @@ function Header(){
                         <li className="nav-link "><Link to = "/test-series" className="nav-link-item"> Test Series</Link></li>
                         <li className="nav-link "><Link to = "/results" className="nav-link-item">Results</Link></li>
                         <li className="nav-link "><Link to = "/study-material" className="nav-link-item">Study Material </Link></li>
+                        <li className="nav-link "><Link to = "/scholarships" className="nav-link-item">Scholarships </Link></li>
                         <li className="nav-link "><Link to = "/books" className="nav-link-item">Books</Link></li>
                         <li className="nav-link "><Link to = "/more" className="nav-link-item">More</Link></li>
                     </ul>
                 </div>
                 </div>
                 <div className="login-info">
-                    <div className="header-phone-logo"><FaPhoneAlt /></div>
-                    <button className="login-button" onClick={handleLoginClick}><Link to="/login" className="nav-link-item">{loginStatus ? "Logout" : "Login"}</Link></button>
+                    <Link to="/callback"  className="nav-link-item"><div className="header-phone-logo"><FaPhoneAlt /></div></Link>
+                    <Link to="/login" className="nav-link-item"><button className="login-button" onClick={handleLoginClick}>{loginStatus ? "Logout" : "Login"}</button></Link>
                 </div>
             </div>
             <div className="header-add"><span className="header-add-content">offer ends soon</span>   Join the NEET PowerPlusLIVECoursefor2026@9,990</div>

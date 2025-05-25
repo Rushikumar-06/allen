@@ -4,6 +4,9 @@ import TestSeries from "./Pages/TestSeries.jsx"
 import LoginPage from "./Pages/LoginPage.jsx"
 import NotFound from "./components/NotFound/NotFound.jsx"
 import MorePage from "./Pages/MorePage.jsx"
+import Callback from "./Pages/Callback.jsx"
+import Result from "./Pages/Result.jsx"
+import Scholarship from "./Pages/Scholarship.jsx"
 import Layout from "./Layout/Layout.jsx"
 import Layout2 from "./Layout/Layout2.jsx"
 import LayoutLogin from "./Layout/LayoutLogin.jsx"
@@ -26,7 +29,11 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/courses" element={<Courses/>} />
           <Route path="/test-series" element={<TestSeries/>} />
+          <Route path="/results" element={<Result/>} />
           <Route path="/more" element={<MorePage/>} />
+          <Route path="/callback" element={<Callback/>} />
+          <Route path="/scholarships" element={<Scholarship/>} />
+
         </Route>
         <Route path="*" element = {<Layout2/>}>
           <Route path="*" element={<NotFound/>} />

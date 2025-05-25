@@ -1,0 +1,45 @@
+.askedQuestiion-container {
+  padding: 40px 18% 40px 18%;
+  background-color: #f0f4fb;
+  border-radius: 8px;
+}
+
+.askedQuestiion-container h2 {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 20px;
+  color: #111;
+}
+
+.askedQuestiion-item {
+  background-color: #fff;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.askedQuestiion-item:hover {
+  background-color: #f5f7fb;
+}
+
+.askedQuestiion-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #111;
+}
+
+.askedQuestiion-answer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.askedQuestiion-arrow {
+  font-size: 26px;
+  color: #555;
+}
