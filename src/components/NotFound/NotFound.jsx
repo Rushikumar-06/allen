@@ -1,9 +1,13 @@
 import "./NotFound.css";
-
+import { Link } from "react-router-dom";
 function NotFound() {
   return (
-    <div >
-      <img className ="notfound-img" src="https://media.licdn.com/dms/image/v2/C5112AQEw1fXuabCTyQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1581099611064?e=1752710400&v=beta&t=K6ALXS1WaejuNyED3ks-9kYYbayuFShIkxC3FgUOkPw" alt="" />
+    <div className="notfound-container">
+      <div className ="notfound-img"><img src="https://static.allen.in/_next/static/media/404.358570ba.png" alt="" /></div>
+      <div className="notfound-text">
+        <p>Content Not Found</p>
+        <button className="notfound-home-btn"><Link to ="/" className="notfound-home-btn-link" >Go to Home</Link></button>
+      </div>
     </div>
   )
 }

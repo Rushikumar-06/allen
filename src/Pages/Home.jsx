@@ -15,6 +15,17 @@ function Home(){
         { para: "Neet Rank Predictor", linkName: "Predict Rank", link: "/neet-rank-predictor", image:"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1738050888/uxqrvzofqoibjbhl25va.png?_upload_ref=ic_img_tool&__ar__=1.68" },
         
     ];
+    const AppAdvantagesImages =[
+      "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330769/vtga4hno9tvp668jm34i.svg?_upload_ref=ic_img_tool",
+      "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330884/lls3agf6fwmht6zba5vx.svg?_upload_ref=ic_img_tool",
+      "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330851/jncudghayyflxuxoodkg.svg?_upload_ref=ic_img_tool"
+    ]
+    const AppAdvantageData = [
+      {head:"400 Lakh+ Questions Practised",text:"Boost your score with practice! Pick topics & difficulty level, and let AI target your weak areas"},
+      {head:"10 Lakh+ hours of Learning Content consumed",text:"Watch live or recorded lectures from ALLEN's top faculty, covering every topic and difficulty level."},
+      {head:"10 Lakh+ Doubts Solved",text:"Get instant answers with faculty help & our AI Assistant available 24/7 in any language."}
+    ]
+    
     return (
         <div>
             
@@ -30,7 +41,7 @@ function Home(){
             </div>
             <WhatsTrending/>
             <Champions/>
-            <AppAdvantages/>
+            <AppAdvantages images={AppAdvantagesImages}  data = {AppAdvantageData}/>
             <Testimonials/>
             <Form/>
             <AppDownload/>
