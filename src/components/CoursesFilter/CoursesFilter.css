@@ -4,7 +4,6 @@
     padding-bottom: 30px;
     background-color: rgb(237, 242, 250);
     position: sticky;
-    
     z-index: 1000;
 }
 .coursesfilter h2{
@@ -15,10 +14,10 @@
     flex-direction: row;
     gap: 25px;
     padding-top: 15px;
+    flex-wrap: wrap;
 }
 .coursesfilter-container-btn,.coursesfilter-container-btn0,.coursesfilter-container-btn1{
     border-radius: 10px;
-    
     height: 35px;
     width: auto;
     padding: 10px 15px 10px 5px;
@@ -54,4 +53,84 @@
     background-color: rgb(213, 232, 255);
     border-color: rgb(4, 103, 218);
     border-width: 2px;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .coursesfilter {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .coursesfilter h2 {
+        font-size: 20px;
+    }
+    
+    .coursesfilter-container {
+        gap: 15px;
+    }
+    
+    .coursesfilter-container-btn,
+    .coursesfilter-container-btn0,
+    .coursesfilter-container-btn1 {
+        font-size: 13px;
+        padding: 8px 12px 8px 4px;
+        height: 32px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .coursesfilter {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 20px;
+    }
+    
+    .coursesfilter h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .coursesfilter-container {
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .coursesfilter-container-btn,
+    .coursesfilter-container-btn0,
+    .coursesfilter-container-btn1 {
+        font-size: 12px;
+        padding: 6px 10px 6px 3px;
+        height: 30px;
+        min-width: fit-content;
+    }
+    
+    .divider {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .coursesfilter {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .coursesfilter h2 {
+        font-size: 16px;
+    }
+    
+    .coursesfilter-container {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    
+    .coursesfilter-container-btn,
+    .coursesfilter-container-btn0,
+    .coursesfilter-container-btn1 {
+        font-size: 11px;
+        padding: 5px 8px 5px 2px;
+        height: 28px;
+    }
 }

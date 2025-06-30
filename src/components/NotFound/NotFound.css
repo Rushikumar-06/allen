@@ -4,12 +4,17 @@
     justify-content: center;
     align-items: center;
     height: 97vh;
+    padding: 20px;
 }
 .notfound-img{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.notfound-img img {
+    max-width: 100%;
+    height: auto;
 }
 .notfound-home-btn{
      display: inline-block;
@@ -34,4 +39,62 @@
 .notfound-home-btn-link{
     text-decoration: none;
     color: white;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .notfound-text {
+        padding-left: 20px;
+    }
+    
+    .notfound-text p {
+        font-size: 18px;
+    }
+    
+    .notfound-home-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .notfound-container {
+        height: auto;
+        min-height: 80vh;
+        padding: 15px;
+    }
+    
+    .notfound-img {
+        margin-bottom: 20px;
+    }
+    
+    .notfound-text {
+        padding-left: 0;
+    }
+    
+    .notfound-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .notfound-home-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .notfound-container {
+        padding: 10px;
+    }
+    
+    .notfound-text p {
+        font-size: 16px;
+    }
+    
+    .notfound-home-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
 }

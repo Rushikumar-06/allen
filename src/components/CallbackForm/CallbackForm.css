@@ -5,9 +5,7 @@
   border-radius: 20px;
   gap: 40px;
   max-width: 1200px;
-  
 }
-
 
 .callback-left-section img {
   width: 100%;
@@ -51,8 +49,6 @@
   margin-bottom: 8px;
 }
 
-
-
 .callback-submit-button {
   margin-top: 20px;
   width: 100%;
@@ -63,4 +59,102 @@
   border-radius: 30px;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .callback-container {
+    padding: 30px 10% 30px 10%;
+    gap: 30px;
+  }
+  
+  .callback-right-section {
+    padding: 40px;
+  }
+  
+  .callback-form-grid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 12px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .callback-container {
+    flex-direction: column;
+    padding: 20px 5% 20px 5%;
+    gap: 20px;
+  }
+  
+  .callback-left-section {
+    order: 2;
+    text-align: center;
+  }
+  
+  .callback-left-section img {
+    max-width: 300px;
+  }
+  
+  .callback-right-section {
+    order: 1;
+    padding: 30px 20px;
+  }
+  
+  .callback-right-section h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .callback-form-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .callback-form-grid input,
+  .callback-form-grid select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .callback-checkbox-group {
+    font-size: 13px;
+  }
+  
+  .callback-submit-button {
+    padding: 14px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .callback-container {
+    padding: 15px 3% 15px 3%;
+  }
+  
+  .callback-left-section img {
+    max-width: 250px;
+  }
+  
+  .callback-right-section {
+    padding: 20px 15px;
+  }
+  
+  .callback-right-section h2 {
+    font-size: 18px;
+  }
+  
+  .callback-form-grid input,
+  .callback-form-grid select {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .callback-checkbox-group {
+    font-size: 12px;
+  }
+  
+  .callback-submit-button {
+    font-size: 14px;
+  }
 }

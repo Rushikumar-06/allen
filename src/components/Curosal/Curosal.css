@@ -11,8 +11,6 @@
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-   
-    
 }
 .Curousal-left-btn-container{
      position: relative;
@@ -24,7 +22,6 @@
 }
 .Curousal-left-btn,.Curousal-right-btn{
     padding-top: 2px;
-    
 }
 .Curosal-dots {
   margin-top: 1rem;
@@ -43,4 +40,75 @@
 
 .Curosal-dot.Curosal-active {
   background-color: #333;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .carousel-controls button {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    
+    .Curousal-left-btn-container {
+        left: 25px;
+    }
+    
+    .Curousal-right-btn-container {
+        right: 25px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .carousel-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .carousel-controls button {
+        font-size: 12px;
+        padding: 4px 6px;
+        position: static !important;
+    }
+    
+    .Curousal-left-btn-container,
+    .Curousal-right-btn-container {
+        position: static;
+        left: auto;
+        right: auto;
+    }
+    
+    .carousel-controls img {
+        order: 1;
+    }
+    
+    .Curousal-left-btn-container {
+        order: 0;
+    }
+    
+    .Curousal-right-btn-container {
+        order: 2;
+    }
+    
+    .Curosal-dots {
+        margin-top: 0.5rem;
+        gap: 0.3rem;
+    }
+    
+    .Curosal-dot {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-controls button {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    
+    .Curosal-dot {
+        width: 6px;
+        height: 6px;
+    }
 }

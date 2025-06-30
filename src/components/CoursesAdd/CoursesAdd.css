@@ -8,3 +8,32 @@
 .CoursesAdd img{
     width: 100%;
 }
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .CoursesAdd {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .CoursesAdd {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .CoursesAdd {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

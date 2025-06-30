@@ -1,8 +1,27 @@
 .results-banner{
     padding: 40px 18% 40px 16%;
     background-color: rgb(237, 242, 250);
-
 }
 .results-banner img{
     width: 100%;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .results-banner {
+        padding: 30px 10% 30px 10%;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .results-banner {
+        padding: 20px 5% 20px 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .results-banner {
+        padding: 15px 3% 15px 3%;
+    }
 }

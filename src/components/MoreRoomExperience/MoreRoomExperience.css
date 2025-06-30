@@ -1,3 +1,23 @@
 .MoreRoomExperience-container{
     text-align: center;
+    padding: 0 5%;
+}
+
+.MoreRoomExperience-img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .MoreRoomExperience-container {
+        padding: 0 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    .MoreRoomExperience-container {
+        padding: 0 2%;
+    }
 }

@@ -1,5 +1,3 @@
-
-
 .MoreCurosal{
     text-align: center;
     background-color: #f2f6fd;
@@ -9,7 +7,6 @@
 .MoreCurosal-container {
   border-radius: 20px;
   position: relative;
-  
 }
 .MoreCurosal-title{
     font-size: 3rem;
@@ -26,7 +23,6 @@
   flex-direction: row;
 }
 
-
 .MoreCurosal-slide-image img {
   max-width: 300px;
   border-radius: 20px;
@@ -36,11 +32,7 @@
 .MoreCurosal-slide-text {
   min-width: 30%;
   background-color: white;
-  
-  ;
 }
-
-
 
 .MoreCurosal-slide-text h3 {
   font-size: 1.5rem;
@@ -91,4 +83,147 @@
 
 .MoreCurosal-dot.MoreCurosal-active {
   background-color: #333;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .MoreCurosal {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .MoreCurosal-title {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .MoreCurosal-slide {
+    gap: 1.5rem;
+  }
+  
+  .MoreCurosal-slide-image img {
+    max-width: 250px;
+  }
+  
+  .MoreCurosal-slide-text h3 {
+    font-size: 1.3rem;
+  }
+  
+  .MoreCurosal-slide-text p {
+    font-size: 0.9rem;
+  }
+  
+  .MoreCurosal-arrow {
+    font-size: 1.8rem;
+  }
+  
+  .MoreCurosal-arrow.MoreCurosal-left {
+    left: 15%;
+  }
+  
+  .MoreCurosal-arrow.MoreCurosal-right {
+    right: 15%;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .MoreCurosal {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .MoreCurosal-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .MoreCurosal-slide {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .MoreCurosal-slide-image img {
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .MoreCurosal-slide-text {
+    min-width: auto;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .MoreCurosal-slide-text h3 {
+    font-size: 1.2rem;
+  }
+  
+  .MoreCurosal-slide-text p {
+    font-size: 0.9rem;
+  }
+  
+  .MoreCurosal-arrow {
+    font-size: 1.5rem;
+    top: 30%;
+  }
+  
+  .MoreCurosal-arrow.MoreCurosal-left {
+    left: 5%;
+  }
+  
+  .MoreCurosal-arrow.MoreCurosal-right {
+    right: 5%;
+  }
+  
+  .MoreCurosal-dots {
+    margin-top: 0.8rem;
+    gap: 0.3rem;
+  }
+  
+  .MoreCurosal-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .MoreCurosal {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .MoreCurosal-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .MoreCurosal-slide-image img {
+    max-width: 180px;
+  }
+  
+  .MoreCurosal-slide-text {
+    padding: 12px;
+  }
+  
+  .MoreCurosal-slide-text h3 {
+    font-size: 1.1rem;
+  }
+  
+  .MoreCurosal-slide-text p {
+    font-size: 0.8rem;
+  }
+  
+  .MoreCurosal-arrow {
+    font-size: 1.3rem;
+  }
+  
+  .MoreCurosal-dot {
+    width: 6px;
+    height: 6px;
+  }
 }

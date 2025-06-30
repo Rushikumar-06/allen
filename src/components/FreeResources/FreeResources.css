@@ -16,7 +16,6 @@
     color: rgb(39, 39, 202);
     display: flex;
     align-items: center; 
-    
 }
 .free-resources-card-link-next{
     font-size: 20px;
@@ -26,7 +25,6 @@
 .free-resources-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    
     gap: 25px;
     margin-top: 20px;
 }
@@ -43,4 +41,82 @@
 }
 .free-resources-card-container{
     text-decoration: none;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .free-resources {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .free-resources-card-head {
+        font-size: 24px;
+    }
+    
+    .free-resources-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .free-resources-card {
+        height: 220px;
+    }
+    
+    .free-resources-card-link {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .free-resources {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15px;
+    }
+    
+    .free-resources-card-head {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .free-resources-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    
+    .free-resources-card {
+        height: 200px;
+        padding: 15px;
+    }
+    
+    .free-resources-card-link {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .free-resources {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .free-resources-card-head {
+        font-size: 20px;
+    }
+    
+    .free-resources-card {
+        height: 180px;
+        padding: 12px;
+    }
+    
+    .free-resources-card-link {
+        font-size: 14px;
+    }
+    
+    .free-resources-card-link-next {
+        font-size: 18px;
+    }
 }

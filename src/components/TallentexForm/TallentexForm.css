@@ -30,8 +30,6 @@
   font-size: 13px;
 }
 
-
-
 .tallentex-form input,
 .tallentex-form select {
   width: 100%;
@@ -92,4 +90,92 @@
 .terms-text a {
   color: #0047ff;
   text-decoration: underline;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .tallentex-form {
+    width: 280px;
+    padding: 18px;
+  }
+  
+  .tallentex-form h3 {
+    font-size: 15px;
+  }
+  
+  .tallentex-form input,
+  .tallentex-form select {
+    padding: 9px;
+    font-size: 13px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .tallentex-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .tallentex-form h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .tallentex-form input,
+  .tallentex-form select {
+    padding: 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .tallentex-exam-dates {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tallentex-exam-dates button {
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .tallentex-submit-btn {
+    padding: 14px;
+    font-size: 16px;
+  }
+  
+  .terms-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tallentex-form {
+    padding: 15px;
+  }
+  
+  .tallentex-form h3 {
+    font-size: 15px;
+  }
+  
+  .tallentex-form input,
+  .tallentex-form select {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .tallentex-exam-dates button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .tallentex-submit-btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .terms-text {
+    font-size: 11px;
+  }
 }

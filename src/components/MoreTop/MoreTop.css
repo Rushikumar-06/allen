@@ -5,17 +5,12 @@ background-color: #edf3ff;
   padding-left: 18%;
   padding-right: 18%;
   padding-bottom: 60px;
-
-  
 }
 
 .More-content {
   display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
- 
-  
 }
 .More-heading {
   font-size: 2.5rem;
@@ -57,9 +52,141 @@ background-color: #edf3ff;
 }
 .More-curosal{
   margin-top: 40px;
- 
 }
 .More-curosal img{
   width: 30vw;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .More-container {
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+  }
   
+  .More-heading {
+    font-size: 2rem;
+  }
+  
+  .More-subheading {
+    font-size: 1.5rem;
+  }
+  
+  .More-description {
+    font-size: 1.1rem;
+  }
+  
+  .More-stats {
+    gap: 1.5rem;
+  }
+  
+  .More-stats div h3 {
+    font-size: 1.5rem;
+  }
+  
+  .More-stats div p {
+    font-size: 1rem;
+  }
+  
+  .More-curosal img {
+    width: 40vw;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .More-container {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+  }
+  
+  .More-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .More-heading {
+    font-size: 1.8rem;
+  }
+  
+  .More-subheading {
+    font-size: 1.3rem;
+  }
+  
+  .More-description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .More-stats {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .More-stats div {
+    text-align: center;
+    min-width: 100px;
+  }
+  
+  .More-stats div h3 {
+    font-size: 1.3rem;
+  }
+  
+  .More-stats div p {
+    font-size: 0.9rem;
+  }
+  
+  .More-curosal {
+    margin-top: 20px;
+  }
+  
+  .More-curosal img {
+    width: 80vw;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .More-container {
+    padding-top: 60px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 20px;
+  }
+  
+  .More-heading {
+    font-size: 1.5rem;
+  }
+  
+  .More-subheading {
+    font-size: 1.1rem;
+  }
+  
+  .More-description {
+    font-size: 0.9rem;
+  }
+  
+  .More-stats {
+    gap: 0.8rem;
+  }
+  
+  .More-stats div h3 {
+    font-size: 1.1rem;
+  }
+  
+  .More-stats div p {
+    font-size: 0.8rem;
+  }
+  
+  .More-curosal img {
+    width: 90vw;
+    max-width: 300px;
+  }
 }

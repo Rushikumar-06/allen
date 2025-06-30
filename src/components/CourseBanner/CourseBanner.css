@@ -6,3 +6,22 @@
   width: 100%;
 }
 
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .banner-container {
+    padding: 120px 10% 30px 10%;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .banner-container {
+    padding: 100px 5% 20px 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-container {
+    padding: 80px 3% 15px 3%;
+  }
+}
